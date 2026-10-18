@@ -374,6 +374,36 @@ var e = {
 			"z H",
 			"z T"
 		]
+	},
+	"vi-vn": {
+		quotes: {
+			openingDoubleQuote: "“",
+			closingDoubleQuote: "”",
+			openingSingleQuote: "‘",
+			closingSingleQuote: "’"
+		},
+		directSpeechIntro: ",",
+		dashWords: {
+			spaceBefore: "",
+			dash: e.emDash,
+			spaceAfter: ""
+		},
+		spaceAfter: {
+			copyright: e.nbsp,
+			soundRecordingCopyright: e.nbsp,
+			numeroSign: e.nbsp,
+			sectionSign: e.nbsp,
+			paragraphSign: e.nbsp,
+			abbreviation: ""
+		},
+		spaceBefore: { percent: "" },
+		numbers: { romanOrdinalIndicator: "\\." },
+		ordinalDate: {
+			firstSpace: e.nbsp,
+			secondSpace: e.nbsp
+		},
+		singleWordAbbreviations: [],
+		multipleWordAbbreviations: []
 	}
 }, n = "en-us", r = class {
 	constructor(e) {

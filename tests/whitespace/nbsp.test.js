@@ -192,7 +192,7 @@ createTestSuite(
   addNbspAfterOrdinalNumber,
   {},
   fixNbsp,
-  supportedLocales.filter((locale) => locale !== "en-us")
+  supportedLocales.filter((locale) => !["en-us", "vi-vn"].includes(locale))
 );
 
 const nbspOrdinalDate = {

@@ -6,6 +6,7 @@ import { rue } from "./rue.js";
 import { sk } from "./sk.js";
 import { deDE } from "./de-de.js";
 import { deCH } from "./de-ch.js";
+import { viVN } from "./vi-vn.js";
 
 const SUPPORTED_LOCALES = {
   "cs":    cs,
@@ -14,6 +15,7 @@ const SUPPORTED_LOCALES = {
   "sk":    sk,
   "de-de": deDE,
   "de-ch": deCH,
+  "vi-vn": viVN,
 };
 
 const DEFAULT_LOCALE = "en-us";

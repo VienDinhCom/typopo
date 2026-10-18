@@ -605,7 +605,7 @@ createTestSuite(
   fixDashBetweenOrdinalNumbers,
   {},
   fixDash,
-  supportedLocales.filter((locale) => locale !== "en-us")
+  supportedLocales.filter((locale) => !["en-us", "vi-vn"].includes(locale))
 );
 
 export const dashSet = {
