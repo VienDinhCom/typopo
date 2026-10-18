@@ -40,7 +40,7 @@ export const viVN = {
   },
 
   numbers: {
-    ordinalIndicator:      "st|nd|rd|th",
+    // ordinalIndicator:      "st|nd|rd|th",
     romanOrdinalIndicator: "\\.",
   },
 
@@ -58,22 +58,22 @@ export const viVN = {
     For coding purposes, they are written here without periods.
   */
   singleWordAbbreviations: [
-    "tr", // trang (page)
-    "tập", // tập (volume)
-    "chương", // chương (chapter)
-    "điều", // điều (article)
-    "khoản", // khoản (clause)
-    "hình", // hình (figure)
-    "bảng", // bảng (table)
+    // "tr", // trang (page)
+    // "tập", // tập (volume)
+    // "chương", // chương (chapter)
+    // "điều", // điều (article)
+    // "khoản", // khoản (clause)
+    // "hình", // hình (figure)
+    // "bảng", // bảng (table)
   ],
   /*
     Common multi-word abbreviations that require proper spacing.
     For coding purposes, they are written here without periods and without correct spacing.
   */
   multipleWordAbbreviations: [
-    "v v", // vân vân (et cetera)
-    "N x b", // Nhà xuất bản (publisher)
-    "T p", // Thành phố (city)
-    "v d", // ví dụ (for example)
+    // "v v", // vân vân (et cetera)
+    // "N x b", // Nhà xuất bản (publisher)
+    // "T p", // Thành phố (city)
+    // "v d", // ví dụ (for example)
   ],
 };
